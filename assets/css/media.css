@@ -1,0 +1,103 @@
+/*! RESPONSIVE TEMPLATE 
+1) MOBILE (0 to 768px Screen Width)
+2) TABLET (769 to 1200px Screen Width)
+3) DESKTOP(1200px+ Screen Width) */
+
+/* Mobile Version */
+@media (max-width: 768px) {
+  .mainContainer > header {
+    width: 25%;
+  }
+  .mainContainer > header > i {
+    padding: 25px;
+    font-size: 30px;
+  }
+  .mainContainer > header > h2 {
+    font-size: 20px;
+  }
+  .mainContainer > header > p {
+    font-size: 12px;
+  }
+  .mainContainer > main {
+    width: 28%;
+  }
+  .mainContainer > main > .phoneNumber {
+    margin-top: 90px;
+    gap: 20px;
+  }
+  .mainContainer > main > .phoneNumber > .phoneContent :first-child,
+  .email :first-child,
+  .address :first-child {
+    font-size: 12px;
+  }
+  .mainContainer > main > .phoneNumber > i {
+    font-size: 20px;
+  }
+  .mainContainer > main > .email {
+    gap: 20px;
+  }
+  .mainContainer > main > .email > i {
+    font-size: 20px;
+  }
+  .mainContainer > main > .address {
+    gap: 20px;
+  }
+  .mainContainer > main > .address > i {
+    font-size: 20px;
+  }
+  .mainContainer > footer {
+    min-width: 26%;
+    top: 82%;
+  }
+  .mainContainer > footer > .fa-brands {
+    font-size: 25px;
+  }
+}
+
+/* Tablet Version */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .mainContainer > header {
+    width: 25%;
+    top: 20%;
+    padding: 5px;
+  }
+  .mainContainer > header > i {
+    padding: 25px;
+    font-size: 30px;
+  }
+  .mainContainer > header > h2 {
+    font-size: 20px;
+  }
+  .mainContainer > header > p {
+    font-size: 12px;
+  }
+  .mainContainer > main {
+    width: 28%;
+    height: 78vh;
+  }
+  .mainContainer > main > .phoneNumber {
+    margin-top: 80px;
+    gap: 20px;
+  }
+  .mainContainer > main > .phoneNumber > .phoneContent :first-child,
+  .email :first-child,
+  .address :first-child {
+    font-size: 12px;
+  }
+  .mainContainer > main > .phoneNumber > i {
+    font-size: 20px;
+  }
+  .mainContainer > main > .email > i {
+    font-size: 20px;
+  }
+  .mainContainer > main > .address > i {
+    font-size: 20px;
+  }
+  .mainContainer > footer {
+    width: 25%;
+    top: 82%;
+  }
+  .mainContainer > footer > .fa-brands {
+    font-size: 25px;
+  }
+}
